@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/public/imgs/ilustrimain.png");
+  background-size: cover;
+  background-position: center;
+  max-height: 100vh;
+  
+}body::before{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.677); /* Semi-transparent overlay */
+  z-index: -1; /* Behind all other content */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-container {
+  margin-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.apresentacao{
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.btn-contact {
+  background-color: #b00505;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 55px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btn-contact:hover {
+  background-color: #ff0000;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
+/* NOVOS ESTILOS PARA A SEÇÃO DE SERVIÇOS */
+.secao-servicos {
+  text-align: center;
+  padding: 40px 20px; /* Espaçamento interno da seção */
+ 
+}
+
+.secao-servicos h2 {
+  color: #333;
+  margin-bottom: 10px; /* Espaço abaixo do título "Nossos Serviços" */
+  font-size: 1.5em; /* Tamanho do título da seção */
+}
+
+.container-cards {
+  display: flex; /* Coloca os cards lado a lado */
+  flex-wrap: wrap; /* Permite que os cards quebrem para a linha de baixo se não couberem */
+  gap: 25px; /* Espaçamento entre os cards */
+  justify-content: center; /* Centraliza os cards no container */
+  max-width: 1200px; /* Largura máxima para o container dos cards */
+  margin: 0 auto; /* Centraliza o container dos cards na seção */
+}
+
+.card {
+  background-color: #ffffffce; /* Fundo branco para o card */
+  border-radius: 10px; /* Cantos arredondados, similar à referência */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  overflow: hidden; /* Garante que a imagem não ultrapasse os cantos arredondados */
+  width: 320px; /* Largura de cada card - ajuste conforme o necessário */
+  height: 430px; /* Altura do card - ajuste conforme o necessário */
+  margin: 10px; /* Margem entre os cards */
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-8px); /* Efeito de levantar um pouco ao passar o mouse */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada no hover */
+}
+
+.card img {
+  width: 100%;
+  height: 200px; /* Altura para a imagem do card - ajuste */
+  object-fit: cover; /* Faz a imagem cobrir a área sem distorcer */
+}
+
+.card-conteudo {
+  padding: 20px;
+  text-align: left;
+  flex-grow: 1; /* Faz o conteúdo ocupar o espaço disponível */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-conteudo h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #2c3e50; /* Cor para o título do card */
+  font-size: 1.4em;
+}
+
+.card-conteudo p {
+  color: #555;
+  font-size: 0.95em;
+  line-height: 1.6;
+  flex-grow: 1; /* Empurra o botão para baixo */
+  margin-bottom: 15px;
+}
+
+.botao-card {
+  display: inline-block;
+  background-color: #ac0303; /* Azul do botão, similar à referência */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  align-self: flex-start; /* Alinha o botão à esquerda no card */
+}
+
+.botao-card:hover {
+  background-color: #700202; /* Azul um pouco mais escuro no hover */
+}
+
+/* Media Queries para Responsividade (Exemplo) */
+@media (max-width: 1024px) {
+  .card {
+    width: calc(50% - 20px); /* Dois cards por linha em telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  .secao-servicos h2 {
+    font-size: 1.8em;
+  }
+  .card {
+    width: calc(50% - 15px); /* Ajuste para telas menores */
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%; /* Um card por linha em telas bem pequenas */
+    max-width: 350px; /* Evita que fique muito largo */
+  }
+}
