@@ -1,16 +1,65 @@
-<<<<<<< HEAD
-# React + Vite
+# RXTech - Landing Page de Serviços de Manutenção
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  </p>
 
-Currently, two official plugins are available:
+Esta é a landing page oficial da **RXTech**, sua especialista em manutenção de hardware e soluções em informática.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Descrição
 
-## Expanding the ESLint configuration
+O projeto consiste em uma página de apresentação moderna e responsiva, desenvolvida para destacar os principais serviços de manutenção de hardware oferecidos pela RXTech. O objetivo é fornecer aos visitantes uma visão clara dos serviços, com informações concisas e um design atraente.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# RxTech
->>>>>>> fbf5086cc2d2f0ae937b097bf50f3227b354188e
+## ✨ Demonstração Online (Live Demo)
+
+➡️ **Acesse a página aqui:** `[AINDA_NAO_HOSPEDADO - Adicione o link quando estiver online]`
+
+*(Sugestão: Hospede seu projeto em plataformas como Vercel, Netlify ou GitHub Pages para ter um link ao vivo.)*
+
+## 🛠️ Serviços Apresentados
+
+A landing page destaca os seguintes serviços essenciais da RXTech:
+
+* **Manutenção de Impressora:** Incluindo recarga de toner, limpeza de cabeçote, alinhamento de cartuchos, calibração de cores, entre outros.
+* **Manutenção de Notebook:** Abrangendo formatação, limpeza preventiva, troca de peças, atualização de drivers, remoção de vírus e otimização de sistema.
+* **Manutenção de PC:** Serviços como formatação, limpeza preventiva, troca de peças, atualização de drivers, remoção de vírus e otimização de sistema.
+
+*(Baseado na imagem da sua página atual. Adapte conforme necessário.)*
+
+## 💻 Tecnologias Utilizadas
+
+Este projeto foi construído utilizando tecnologias modernas de desenvolvimento web:
+
+* **Vite.js:** Para um ambiente de desenvolvimento rápido e otimizado.
+* **React:** Biblioteca JavaScript para construção de interfaces de usuário componentizadas.
+* **HTML5:** Estrutura semântica da página.
+* **CSS3:** Estilização moderna, incluindo Flexbox/Grid para layouts responsivos.
+* **JavaScript (ES6+):** Para interatividade e lógica da aplicação.
+* **Git & GitHub:** Para controle de versão e hospedagem do código.
+
+## ⚙️ Como Executar o Projeto Localmente
+
+Para rodar este projeto em seu ambiente de desenvolvimento local, siga os passos abaixo:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/Leomaario/RxTech.git](https://github.com/Leomaario/RxTech.git)
+    ```
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd RxTech
+    ```
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou
+    # yarn install
+    ```
+4.  **Inicie o servidor de desenvolvimento Vite:**
+    ```bash
+    npm run dev
+    # ou
+    # yarn dev
+    ```
+5.  Abra seu navegador e acesse `http://localhost:5173` (ou a porta indicada no seu terminal).
+
+## 📂 Estrutura do Projeto (Visão Geral)
