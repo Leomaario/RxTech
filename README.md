@@ -23,7 +23,6 @@ A landing page destaca os seguintes serviços essenciais da RXTech:
 * **Manutenção de Notebook:** Abrangendo formatação, limpeza preventiva, troca de peças, atualização de drivers, remoção de vírus e otimização de sistema.
 * **Manutenção de PC:** Serviços como formatação, limpeza preventiva, troca de peças, atualização de drivers, remoção de vírus e otimização de sistema.
 
-*(Baseado na imagem da sua página atual. Adapte conforme necessário.)*
 
 ## 💻 Tecnologias Utilizadas
 
