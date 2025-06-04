@@ -11,10 +11,7 @@ O projeto consiste em uma página de apresentação moderna e responsiva, desenv
 
 ## ✨ Demonstração Online (Live Demo)
 
-➡️ **Acesse a página aqui:** `[AINDA_NAO_HOSPEDADO - Adicione o link quando estiver online]`
-
-*(Sugestão: Hospede seu projeto em plataformas como Vercel, Netlify ou GitHub Pages para ter um link ao vivo.)*
-
+➡️ **Acesse a página aqui:** Em Andamento
 ## 🛠️ Serviços Apresentados
 
 A landing page destaca os seguintes serviços essenciais da RXTech:
